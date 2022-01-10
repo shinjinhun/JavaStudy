@@ -15,7 +15,7 @@ public class AccessDemo1 {
     public static void main(String[] args) {
         A a = new A();
         System.out.println(a.y());
-        // ¾Æ·¡ ÄÚµå´Â ¿À·ù°¡ ¹ß»ıÇÑ´Ù.
+     // ì•„ë˜ ì½”ë“œëŠ” ì˜¤ë¥˜ê°€ ë°œìƒí•œë‹¤.
         //System.out.println(a.z());
         System.out.println(a.x());
     }

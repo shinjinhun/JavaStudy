@@ -2,7 +2,7 @@ package org.opentutorials.javatutorials.classninstance;
 
 class Calculator2 {
     static double PI = 3.14;
-    // Å¬·¡½º º¯¼öÀÎ base°¡ Ãß°¡µÇ¾ú´Ù.
+ // í´ë˜ìŠ¤ ë³€ìˆ˜ì¸ baseê°€ ì¶”ê°€ë˜ì—ˆë‹¤.
     static int base = 0;
     int left, right;
  
@@ -12,12 +12,12 @@ class Calculator2 {
     }
  
     public void sum() {
-        // ´õÇÏ±â¿¡ baseÀÇ °ªÀ» Æ÷ÇÔ½ÃÅ²´Ù.
+    	// ë”í•˜ê¸°ì— baseì˜ ê°’ì„ í¬í•¨ì‹œí‚¨ë‹¤.
         System.out.println(this.left + this.right + base);
     }
  
     public void avg() {
-        // Æò±ÕÄ¡¿¡ baseÀÇ °ªÀ» Æ÷ÇÔ½ÃÅ²´Ù.
+    	// í‰ê· ì¹˜ì— baseì˜ ê°’ì„ í¬í•¨ì‹œí‚¨ë‹¤.
         System.out.println((this.left + this.right + base) / 2);
     }
 }
@@ -28,21 +28,21 @@ public class CalculatorDemo2 {
  
         Calculator2 c1 = new Calculator2();
         c1.setOprands(10, 20);
-        // 30 Ãâ·Â
+        // 30 ì¶œë ¥
         c1.sum();
  
         Calculator2 c2 = new Calculator2();
         c2.setOprands(20, 40);
-        // 60 Ãâ·Â
+        // 60 ì¶œë ¥
         c2.sum();
  
-        // Å¬·¡½º º¯¼ö baseÀÇ °ªÀ» 10À¸·Î ÁöÁ¤Çß´Ù.
+        // í´ë˜ìŠ¤ ë³€ìˆ˜ baseì˜ ê°’ì„ 10ìœ¼ë¡œ ì§€ì •í–ˆë‹¤.
         Calculator2.base = 10;
  
-        // 40 Ãâ·Â
+        // 40 ì¶œë ¥
         c1.sum();
  
-        // 70 Ãâ·Â
+        // 70 ì¶œë ¥
         c2.sum();
  
     }

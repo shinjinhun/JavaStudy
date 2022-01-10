@@ -3,7 +3,7 @@ import org.opentutorials.javatutorials.packages.example1.A;
 
 public class B {
     public static void main(String[] args) {
-        //Å¬·¡½º A°¡ ´Ù¸¥ ÆĞÅ°Áö¿¡ ÀÖ±â ¶§¹®¿¡ ·Îµå ÇÒ ¼ö ¾ø´Ù.
+    	//í´ë˜ìŠ¤ Aê°€ ë‹¤ë¥¸ íŒ¨í‚¤ì§€ì— ìˆê¸° ë•Œë¬¸ì— ë¡œë“œ í•  ìˆ˜ ì—†ë‹¤.
         A a = new A();
     }
 }

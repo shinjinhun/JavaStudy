@@ -19,9 +19,9 @@ class Calculator {
  
 class SubstractionableCalculator extends Calculator {
 
-	// ¸Ş¼Òµå ¿À¹ö¶óÀÌµù
+	// ë©”ì†Œë“œ ì˜¤ë²„ë¼ì´ë”©
     public void sum() {
-        System.out.println("½ÇÇà °á°ú´Â " + (this.left + this.right) + "ÀÔ´Ï´Ù.");
+    	System.out.println("ì‹¤í–‰ ê²°ê³¼ëŠ” " + (this.left + this.right) + "ì…ë‹ˆë‹¤.");
     }
 
     public int avg() {
@@ -39,7 +39,7 @@ public class CalculatorDemo {
         c1.setOprands(10, 20);
         c1.sum();
         c1.avg();
-        System.out.println("½ÇÇà °á°ú´Â " + c1.avg());
+        System.out.println("ì‹¤í–‰ ê²°ê³¼ëŠ” " + c1.avg());
         c1.substract();
     }
 }

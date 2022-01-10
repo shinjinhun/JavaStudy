@@ -12,7 +12,7 @@ public class Number {
 //		System.out.println("egoing said \"Welcome programming world\"");
 		
 //		System.out.println("HTML\nCSS\nJavaScript\n");
-//		System.out.println("»ýÈ°"+"ÄÚµù");
+//		System.out.println("ï¿½ï¿½È°"+"ï¿½Úµï¿½");
 		
 		
 //		int a;

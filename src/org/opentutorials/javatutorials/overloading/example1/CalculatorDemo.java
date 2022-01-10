@@ -10,7 +10,7 @@ class Calculator{
         this.right = right;
     }
  
-    // ¸Å¼Òµå ¿À¹ö·Îµù : ¸Å°³º¯¼ö ¼ıÀÚ¿Í Å¸ÀÔÀÌ ´Ù¸£¸é ¸Ş¼Òµå¸íÀ» µ¿ÀÏÇÏ°Ô »ç¿ë °¡´ÉÇÏ´Ù
+    // ë§¤ì†Œë“œ ì˜¤ë²„ë¡œë”© : ë§¤ê°œë³€ìˆ˜ ìˆ«ìì™€ íƒ€ì…ì´ ë‹¤ë¥´ë©´ ë©”ì†Œë“œëª…ì„ ë™ì¼í•˜ê²Œ ì‚¬ìš© ê°€ëŠ¥í•˜ë‹¤
     public void setOprands(int left, int right, int third){
     	this.setOprands(left, right);
         System.out.println("setOprands(int left, int right, int third)");

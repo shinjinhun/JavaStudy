@@ -2,9 +2,9 @@ package org.opentutorials.javatutorials.abstractclass.example1;
 
 abstract class A{
     public abstract int b();
-    //º»Ã¼°¡ ÀÖ´Â ¸Ş¼Òµå´Â abstract Å°¿öµå¸¦ °¡Áú ¼ö ¾ø´Ù.
+    //ë³¸ì²´ê°€ ìˆëŠ” ë©”ì†Œë“œëŠ” abstract í‚¤ì›Œë“œë¥¼ ê°€ì§ˆ ìˆ˜ ì—†ë‹¤.
     //public abstract int c(){System.out.println("Hello")}
-    //Ãß»ó Å¬·¡½º ³»¿¡´Â Ãß»ó ¸Ş¼Òµå°¡ ¾Æ´Ñ ¸Ş¼Òµå°¡ Á¸Àç ÇÒ ¼ö ÀÖ´Ù. 
+    //ì¶”ìƒ í´ë˜ìŠ¤ ë‚´ì—ëŠ” ì¶”ìƒ ë©”ì†Œë“œê°€ ì•„ë‹Œ ë©”ì†Œë“œê°€ ì¡´ì¬ í•  ìˆ˜ ìˆë‹¤. 
     public void d(){
         System.out.println("world");
     }

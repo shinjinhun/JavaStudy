@@ -8,9 +8,9 @@ class Calculator{
     }
     public void divide(){
         try {
-            System.out.print("°è»ê°á°ú´Â ");
+            System.out.print("ê³„ì‚°ê²°ê³¼ëŠ” ");
             System.out.print(this.left/this.right);
-            System.out.print(" ÀÔ´Ï´Ù.");
+            System.out.print(" ìž…ë‹ˆë‹¤.");
 		} catch (Exception e) {
 			System.out.println("\n\ne.getMessage()\n"+e.getMessage());
             System.out.println("\n\ne.toString()\n"+e.toString());

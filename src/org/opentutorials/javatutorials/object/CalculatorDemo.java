@@ -3,7 +3,7 @@ package org.opentutorials.javatutorials.object;
 public class CalculatorDemo {
 	
     public static void main(String[] args) {
-        // ¾Æ·¡ÀÇ ·ÎÁ÷ÀÌ 1000ÁÙ Â¥¸®ÀÇ º¹ÀâÇÑ ·ÎÁ÷ÀÌ¶ó°í °¡Á¤ÇÏÀÚ.
+    	// ì•„ë˜ì˜ ë¡œì§ì´ 1000ì¤„ ì§œë¦¬ì˜ ë³µì¡í•œ ë¡œì§ì´ë¼ê³  ê°€ì •í•˜ì.
         System.out.println(10 + 20);
         System.out.println(20 + 40);
         
