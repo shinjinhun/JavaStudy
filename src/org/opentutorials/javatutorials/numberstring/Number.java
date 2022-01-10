@@ -12,12 +12,8 @@ public class Number {
 //		System.out.println("egoing said \"Welcome programming world\"");
 		
 //		System.out.println("HTML\nCSS\nJavaScript\n");
-<<<<<<< HEAD
 //		System.out.println("생활"+"코딩");
-=======
-//		System.out.println("��Ȱ"+"�ڵ�");
->>>>>>> branch 'master' of https://github.com/shinjinhun/JavaStudy.git
-		
+
 		
 //		int a;
 //		a = 1;
