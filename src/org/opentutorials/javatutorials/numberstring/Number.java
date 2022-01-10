@@ -12,7 +12,9 @@ public class Number {
 //		System.out.println("egoing said \"Welcome programming world\"");
 		
 //		System.out.println("HTML\nCSS\nJavaScript\n");
-//		System.out.println("��Ȱ"+"�ڵ�");
+
+//		System.out.println("생활"+"코딩");
+
 		
 		
 //		int a;
