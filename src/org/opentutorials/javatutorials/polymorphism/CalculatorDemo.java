@@ -34,7 +34,7 @@ class CalculatorDecoMinus extends Calculator {
 } 
 public class CalculatorDemo {
     public static void execute(Calculator cal){
-        System.out.println("½ÇÇà°á°ú");
+    	System.out.println("ì‹¤í–‰ê²°ê³¼");
         cal.run();
     }
     public static void main(String[] args) { 

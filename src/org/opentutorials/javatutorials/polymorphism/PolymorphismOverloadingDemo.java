@@ -2,11 +2,11 @@ package org.opentutorials.javatutorials.polymorphism;
 
 class O{
     public void a(int param){
-        System.out.println("¼ıÀÚÃâ·Â");
+        System.out.println("ìˆ«ìì¶œë ¥");
         System.out.println(param);
     }
     public void a(String param){
-        System.out.println("¹®ÀÚÃâ·Â");
+        System.out.println("ë¬¸ìì¶œë ¥");
         System.out.println(param);
     }
 }
